@@ -34,12 +34,14 @@ export default function Signup() {
 
         try {
             const { data, error: authError } = await signUp.email({
+                
+                name,
                 email,
                 password,
-                name,
                 callbackURL: "/login",
                 
             });
+            console.log(data)
             
 
             if (authError) {
