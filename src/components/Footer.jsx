@@ -150,7 +150,7 @@ export default function Footer() {
 
                 {/* BOTTOM */}
                 <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-sm text-gray-500 md:flex-row">
-                    <p>Copyright 2024 — Hire Loop</p>
+                    <p>Copyright 2026 — Hire Loop</p>
 
                     <div className="flex items-center gap-6">
                         <Link href="/terms" className="transition hover:text-white">
