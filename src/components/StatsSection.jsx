@@ -7,6 +7,8 @@ import {
     Star,
 } from "@gravity-ui/icons";
 import { motion } from "motion/react"
+
+
 export default function StatsSection() {
     const stats = [
         {
@@ -60,8 +62,8 @@ export default function StatsSection() {
                         <br />
                         find their dream positions.
                     </h2>
-                    <motion.p animate={{ rotate: -45 }}>Remote Jobs</motion.p>
-                    <motion.p initial={{ scale: 0 }} animate={{ scale: 1 }}>On-site Jobs</motion.p>
+                    {/* <motion.p animate={{ rotate: -45 }}>Remote Jobs</motion.p>
+                    <motion.p initial={{ scale: 0 }} animate={{ scale: 1 }}>On-site Jobs</motion.p> */}
                 </div>
 
                 {/* Stats Cards */}
